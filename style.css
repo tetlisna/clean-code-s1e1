@@ -18,7 +18,7 @@ body {
   font-family: fantasy, cursive;
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
 
   .aaa { text-align: center;
 
@@ -45,7 +45,7 @@ ul {
 li, h3 {
   list-style: none;
 }
-input,button{
+input,button {
   outline: none;
 }
 button {
@@ -58,7 +58,7 @@ button {
   cursor: pointer;
 }
 button:hover {
-  color: #3a3A3a;
+  color: #3a3a3a;
 }
 
 /* Heading */
@@ -79,10 +79,10 @@ input[type="text"] {
   line-height: 18px;
   height: 21px;
   padding: 0 9px;
-  border: 1px solid #dDd;
-  background: #FFF;
+  border: 1px solid #ddd;
+  background: #fff;
   border-radius: 6px;
-  font-family: Lato, sans-serif;
+  font-family: "Lato", sans-serif;
   color: #888;
 }
 input[type="text"]:focus {

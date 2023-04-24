@@ -35,7 +35,8 @@
   margin: 0 auto 0;
 }
 
-.task {
+.label__task,
+.input__task {
   width: 56%;
   display: inline-block;
   flex-grow: 1
@@ -101,7 +102,7 @@ input {
   color: #888;
 }
 
-#new-task .input__task:focus {
+.task-row-wrapper.input__task:focus {
   color: #333;
 }
 
@@ -111,7 +112,7 @@ input {
   display: block;
 }
 
-#new-task .input__task {
+.main-page__add-task.input__task {
   width: 318px;
 }
 
@@ -151,7 +152,7 @@ input {
 
 /* Completed */
 
-#end-tasks .label__task {
+.main-page__end-task .label__task {
   text-decoration: line-through;
   color: #888;
 }
